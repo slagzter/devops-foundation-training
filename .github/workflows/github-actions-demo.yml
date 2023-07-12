@@ -1,6 +1,6 @@
-name: GitHub Actions Demo
+name: GH Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: [push] # defines the action on which this workflow is executed
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
