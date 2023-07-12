@@ -20,7 +20,7 @@ jobs:
           ls -l ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   Running-Additional-Commands:
-    runs-on: rhel-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Running on ${{ runner.os }} OpSys"
       - run: echo "With a ${{ runner.arch }} architecture"
